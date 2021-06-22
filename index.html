@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <!-- <style>
+        .result-table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        .result-table td,
+        .result-table th {
+            border: 0.1rem solid green;
+            padding: 0.2rem;
+        }
+
+        .result-table tr:nth-child(even) {
+            background-color: rgb(241, 235, 235)
+        }
+
+        .result-table th {
+            padding: 0.2rem;
+            text-align: center;
+            background-color: green;
+            color: white;
+        }
+    </style> -->
+</head>
+
+<body>
+    <div class="container ">
+        <div class="title">
+            <h1>Calculate your Result</h1>
+            <hr>
+        </div>
+        <div class="calculator-body d-flex">
+            <div class="input-section ">
+                <h3>Enter Marks</h3>
+                <hr><br>
+                <div class="input">
+                    <input id="M" type="text" placeholder="Mathamatics">
+                </div>
+                <div class="input">
+                    <input id="P" type="text" placeholder="Physics">
+                </div>
+                <div class="input">
+                    <input id="C" type="text" placeholder="Chemistry">
+                </div>
+                <div class="input">
+                    <input id="E" type="text" placeholder="English">
+                </div>
+                <div class="input">
+                    <input id="CO" type="text" placeholder="Computer">
+                </div>
+                <div>
+                    <input class="btn" type="button" value="Calculate" onclick="calcy()">
+                </div>
+            </div>
+            <div class="output-section">
+                <h3>RESULT</h3>
+                <p id="greet">
+                Result Display Here
+                </p>
+                <br>
+                <p id="result">
+
+                    <!-- <table class="result-table">
+                        <tr>
+                            <th>Subject</th>
+                            <th>Marks</th>
+                        </tr>
+                        <tr>
+                            <td>Mathamatics</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>Physics</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>Chemistry</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>English</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>Computer</td>
+                            <td>30</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <table class="result-table">
+                        <tr>
+                            <td>Total</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>Percentage</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>Grade</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>Status</td>
+                            <td>30</td>
+                        </tr>
+                    </table> -->
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

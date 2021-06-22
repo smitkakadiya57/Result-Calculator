@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-flex-col{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+    margin-top:1rem;
+    background: white;
+    box-shadow: 0px 0px 6px 0px grey;
+   border-bottom: 1rem solid blue;
+
+
+    
+}
+
+.title h1 {
+    font-size: 3rem;
+    color: white;
+    text-shadow: 0px 0px 6px rgb(0, 0, 0);
+    text-align: center;
+   padding: 1rem;
+   background: linear-gradient(to bottom right , rgb(80, 122, 221), rgb(59, 75, 214));
+}
+
+.calculator-body{
+    
+    padding: 2rem;
+}
+.input-section{
+
+padding: 2rem;
+width: 20rem;
+box-shadow: 0px 0px 4px grey;
+background: rgba(236, 234, 234, 0.281);
+margin: 2rem;
+
+}
+.input-section h3 {
+    color: blue;
+    font-size: 2rem;
+}
+
+.input input {
+    
+   margin: 0.3rem;
+    font-size: 1rem;
+    border: none;
+    border-bottom: 0.2rem solid grey;
+    padding: 0.2rem;
+    outline: none;
+}
+
+.btn{
+    border: 0.1rem solid  blue;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border-radius: 0.3rem ;
+    background: white;
+}
+.btn:hover{
+    background: rgb(38, 187, 200);
+    border: 0.2rem solid  rgb(15, 117, 185);
+}
+.output-section{
+border: 2px solid green;
+padding: 2rem;
+width: 20rem;
+margin: 2rem;
+height: fit-content;
+}
